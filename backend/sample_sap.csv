@@ -1,0 +1,4 @@
+BuchungDatum,PlantCode,Material,Quantity,Unit,CostCenter,FuelType
+2026-05-01,PLT001,Diesel Fuel,500,L,CC101,Diesel
+2026-05-02,PLT002,Petrol Fuel,1200,L,CC102,Petrol
+2026-05-03,PLT003,Natural Gas,300,KG,CC103,Gas
