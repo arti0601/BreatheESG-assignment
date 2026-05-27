@@ -123,3 +123,7 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+
+8252659919
