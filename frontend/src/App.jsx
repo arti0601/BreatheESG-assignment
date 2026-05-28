@@ -11,7 +11,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/records/"
+        "https://breathe-esg-backend-xn62.onrender.com/api/records/"
       );
 
       setRecords(response.data);
@@ -39,7 +39,7 @@ function App() {
     try {
 
       await axios.post(
-        "http://127.0.0.1:8000/api/upload/sap/",
+        "https://breathe-esg-backend-xn62.onrender.com/api/upload/sap/",
         formData
       );
 
@@ -60,7 +60,7 @@ function App() {
     try {
 
       await axios.post(
-        `http://127.0.0.1:8000/api/approve/${id}/`
+        `https://breathe-esg-backend-xn62.onrender.com/api/approve/${id}/`
       );
 
       fetchRecords();
